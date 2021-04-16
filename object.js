@@ -27,7 +27,7 @@ var result1, result2, count = 0;
 // getNumber([1, 5, 7, 9, 15, 19, 777, -15, -11, 4, 9, 23, -17]) //returns 4
 // getNumber([0, 2, 8, -4, 0, -122, 13, -4, 28, 12]) //returns 13
 
-//Task 3
+//Task 3 не закончила
 // function findTitle(array, 'string') {
 //     return [{ title has this substring }]
     
@@ -41,8 +41,8 @@ var findTitle = function(arr, str){
             }
         }
     }
+    //такс...теперь нужно сделать фильтр 
 }
-
 var arr = [ //массив объектов 
     { title: 'Some title1'},
     { title: 'I like JS' },
@@ -54,4 +54,24 @@ findTitle(arr, 'js'); // return [{ title: 'I like JS'}, { title: 'Js - is the be
 //мыслишки: т.е. нужно сделать фильтр этих объектов в массиве, в которых есть title: js? и не должно быть в значении title?
 // 
 
-//Task 4
+//Task 4 не начинала
+function countCharacters(string) {
+let result;
+//Your code here
+return result;
+}
+countCharacters('sparrow') // should return {s: 1, p: 1, a: 1, r: 2, o: 1, w: 1}
+countCharacters('aabcddeffge') // should return {a: 2, b: 1, c: 1, d: 2, e: 2, f: 2, g: 1}
+countCharacters('a 2ab !d') // should return {a: 2, b:1, d:1, 2:1}
+
+//Task 5 не начинала 
+function getNextPalindrome(number) {
+let result;
+//Your code here
+return result;
+}
+getNextPalindrome(7) // returns 11
+getNextPalindrome(99) //returns 101
+getNextPalindrome(132) // returns 141
+getNextPalindrome(888) // returns 898
+getNextPalindrome(999) // returns 1001
